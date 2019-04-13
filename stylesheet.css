@@ -1,0 +1,110 @@
+body{
+   margin: 0px;
+}
+.header{
+   height:80px;
+   display: flex;
+}
+.header ul{
+   color:black;
+   vertical-align: middle;
+}
+.header li{
+   margin:0 8px;
+   font-size: 14px;
+   font-weight: bold;
+   list-style: none;
+   color:black;
+   float:left;
+}
+.header li a{
+   text-decoration: none;
+   color: black;
+}
+.header li a:hover{
+   border-bottom: 2px solid black;
+}
+.batu p{
+   clear: both;
+   background-color:#99CCCC;
+   text-align: center;
+   margin:0px;
+   padding:14px 0;
+   font-size: 14px;
+}
+.travel{
+   position: relative;
+}
+.travel h1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+   margin:0;
+   padding:0;
+   color:white;
+}
+.travel a{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+   margin:0;
+   padding:0;
+   color:white;
+}
+.travel p{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+   margin:0;
+   padding:0;
+   color:white;
+}
+.travel img{
+   width: 100%;
+   height:600px;
+   object-fit: cover;
+}
+.gift{
+   text-align: center;
+   color:#505050;
+   padding-top:14px;
+}
+.box{
+   display: inline-flex;
+   justify-content:space-around;
+}
+.contents{
+   width: 33.33333%;
+}
+.if{
+   text-align: center;
+   background-color: #008080;
+   color: white;
+   padding:50px;
+}
+.if a{
+   text-decoration: none;
+}
+.last{
+   color:silver;
+}
+footer .line{
+   float: left;
+   padding-left: 120px;
+   font-size: 14px;
+}
+footer p{
+   margin:4px auto;
+}
+.c{
+   clear: both;
+}
